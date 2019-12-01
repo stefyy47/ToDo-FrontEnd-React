@@ -7,7 +7,7 @@ import ApiCallService from "./services/apiCall.js";
 class App extends Component {
   constructor(props) {
     super(props);
-    this.url = "http://localhost:5000/todo";
+    this.url = "http://localhost:8080/todo";
     this.state = {
       todos: [],
       showAddBar: false
