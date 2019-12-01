@@ -1,0 +1,17 @@
+.todo-container,
+.todo-wrapper {
+  border: 1px solid black;
+}
+.todo-container {
+  padding: 20px;
+}
+
+.todo-wrapper {
+  padding: 5px;
+  margin: 5px 0px;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+}
